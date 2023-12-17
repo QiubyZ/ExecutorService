@@ -1,4 +1,5 @@
 name: Testing
+
 job:
     steps:
-        uses: .github/workflows/android.yml
+        uses: QiubyZ/GithubChecker/github/workflows/android.yml
