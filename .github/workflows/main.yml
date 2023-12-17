@@ -3,4 +3,4 @@ on:
   workflow_dispatch:     
 jobs:
   call-workflow-in-local-repo:
-    uses: https://github.com/QiubyZ/DebugApp/blob/main/.github/workflows/main.yml@v1
+    uses: QiubyZ/DebugApp/blob/main/.github/workflows/main.yml@v1
