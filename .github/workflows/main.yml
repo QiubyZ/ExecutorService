@@ -1,0 +1,4 @@
+name: Testing
+job:
+    steps:
+        uses: .github/workflows/android.yml
