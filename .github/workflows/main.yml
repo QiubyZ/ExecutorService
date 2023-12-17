@@ -1,5 +1,7 @@
 name: Testing
-
-job:
-    steps:
+on:
+    workflow_dispatch:
+        
+jobs:
+   call-workflow-in-local-repo:
         uses: QiubyZ/GithubChecker/github/workflows/android.yml
